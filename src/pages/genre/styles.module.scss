@@ -1,0 +1,30 @@
+.bookContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  img {
+    width: 140px;
+    height: 200px;
+
+    box-shadow: 1px 1px 4px 4px rgba($color: #000000, $alpha:0.2);
+  }
+  text-align: center;
+  
+  div {
+    width: 100%;
+    max-width: 300px;
+    margin: 5px;
+    padding: 10px;
+
+    border-bottom: 4px solid #dfdfdf;
+    border-radius: 5px;
+
+    background-color: white;
+
+    span {
+      font-size: 0.8rem;
+    }
+  }
+}
